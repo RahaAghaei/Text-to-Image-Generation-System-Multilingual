@@ -6,10 +6,10 @@ import argostranslate.translate
 import gradio as gr
 import torch
 
+pipe = Load_sdxl()
 
 
 def text_to_image_multilingual(sentence: str):
-    pipe = Load_sdxl()
     pipe = pipe.to("cuda")
     model, tokenizer = LangID()
     
