@@ -1,4 +1,4 @@
-# Text-to-Image Generation System (Multilingual)
+# Text to Image Generation System (Multilingual)
 
 Welcome to the **Text-to-Image Generation System**, a multilingual AI project that transforms your ideas into vivid images.  
 This system automatically detects the input language, translates non-English prompts into English, and generates high-quality images using **Stable Diffusion XL Turbo**.
